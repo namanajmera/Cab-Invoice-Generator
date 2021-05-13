@@ -7,16 +7,21 @@ public class CabInvoiceGenerator {
     private static final double MINIMUM_FARE = 5;
 
     public double calculateFare(double distance, int time) {
-        if (distance<MINIMUM_FARE)
+        if (distance < MINIMUM_FARE)
             return MINIMUM_FARE;
-        return distance * COST_PER_KILOMETER +time * COST_PER_MINUTE;
+        return distance * COST_PER_KILOMETER + time * COST_PER_MINUTE;
     }
 
     public double calculateFare(Ride[] rides) {
         double totalFare = 0;
-        for (Ride ride:rides) {
-            totalFare+=calculateFare(ride.distance,ride.time);
+        for (Ride ride : rides) {
+            totalFare += calculateFare(ride.distance, ride.time);
         }
         return totalFare;
+    }
+
+    public EnhancedInvoice getInvoiceSummary(Ride[] rides) {
+        double totalFare = calculateFare(rides);
+        return new EnhancedInvoice(rides.length, totalFare);
     }
 }
