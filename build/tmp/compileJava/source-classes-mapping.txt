@@ -1,6 +1,10 @@
-com/cabinvoicegenerator/Ride.java
- com.cabinvoicegenerator.Ride
 com/cabinvoicegenerator/EnhancedInvoice.java
  com.cabinvoicegenerator.EnhancedInvoice
 com/cabinvoicegenerator/CabInvoiceGenerator.java
  com.cabinvoicegenerator.CabInvoiceGenerator
+com/cabinvoicegenerator/RideRepository.java
+ com.cabinvoicegenerator.RideRepository
+com/cabinvoicegenerator/InvoiceService.java
+ com.cabinvoicegenerator.InvoiceService
+com/cabinvoicegenerator/Ride.java
+ com.cabinvoicegenerator.Ride
