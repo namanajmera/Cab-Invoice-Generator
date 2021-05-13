@@ -2,9 +2,14 @@ com/cabinvoicegenerator/EnhancedInvoice.java
  com.cabinvoicegenerator.EnhancedInvoice
 com/cabinvoicegenerator/CabInvoiceGenerator.java
  com.cabinvoicegenerator.CabInvoiceGenerator
+com/cabinvoicegenerator/CabRide.java
+ com.cabinvoicegenerator.CabRide
 com/cabinvoicegenerator/RideRepository.java
  com.cabinvoicegenerator.RideRepository
 com/cabinvoicegenerator/InvoiceService.java
  com.cabinvoicegenerator.InvoiceService
 com/cabinvoicegenerator/Ride.java
  com.cabinvoicegenerator.Ride
+com/cabinvoicegenerator/InvoiceException.java
+ com.cabinvoicegenerator.InvoiceException
+ com.cabinvoicegenerator.InvoiceException$ExceptionType
